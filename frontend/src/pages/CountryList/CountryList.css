@@ -1,0 +1,72 @@
+/* Main container styling */
+.country-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Card styling */
+.country-card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Flag image styling */
+.country-flag {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Country name styling */
+.country-name {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.flag-icon {
+    color: rgba(75, 192, 192, 1);
+    margin-right: 10px;
+}
+
+/* View details button styling */
+.view-details-button {
+    background-color: rgba(75, 192, 192, 1);
+    color: white;
+    text-transform: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-button:hover {
+    background-color: rgba(60, 170, 170, 1);
+}
+
+
+
+/* Skeleton flag styling */
+.skeleton-flag {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Card skeleton transition */
+.country-card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
