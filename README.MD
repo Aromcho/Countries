@@ -92,9 +92,9 @@ This project is a Full-Stack application for displaying information about countr
 ## Running the Application
 1. Start both the backend and frontend simultaneously:
    - Backend: `http://localhost:5000`
-   - Frontend: `http://localhost:3000`
+   - Frontend: `http://localhost:5173`
 
-2. Open `http://localhost:3000` in your browser to view the application.
+2. Open `http://localhost:5173` in your browser to view the application.
 
 ---
 
